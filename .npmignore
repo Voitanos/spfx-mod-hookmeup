@@ -1,0 +1,10 @@
+# exclude workflows
+.github/workflows
+
+# exclude all typescript files
+**/*.ts
+# exclude utility script for builds
+./scripts/update-package-version.*
+
+# exclude package manager lock files
+package-lock.json

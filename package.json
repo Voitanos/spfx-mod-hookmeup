@@ -1,0 +1,52 @@
+{
+  "name": "@voitanos/spfx-mod-hookmeup",
+  "description": "Convert the Microsoft 365 SPFx Yeoman Generator template for React components from a class component to a functional component.",
+  "version": "1.9.1",
+  "bin": {
+    "spfx-mod-hookmeup": "src/index.js"
+  },
+  "engines": {
+    "node": ">=8.9.0 <9.0.0 || >=10.13.0 <11.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+    "prompt-sync": "4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.19.45",
+    "@types/prompt-sync": "4.2.3",
+    "typescript": "5.5.4"
+  },
+  "keywords": [
+    "sharepoint framework",
+    "spfx",
+    "yeoman",
+    "yeoman generator",
+    "microsoft 365",
+    "m365",
+    "react",
+    "hooks",
+    "react hooks",
+    "class components",
+    "functional components"
+  ],
+  "homepage": "https://github.com/Voitanos/spfx-mod-hookmeup",
+  "bugs": {
+    "url": "https://github.com/Voitanos/spfx-mod-hookmeup/issues"
+  },
+  "issues": "https://github.com/Voitanos/spfx-mod-hookmeup/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voitanos/spfx-mod-hookmeup.git"
+  },
+  "author": "Andrew Connell <andrew@voitanos.io>",
+  "maintainers": [
+    {
+      "name": "andrewconnell",
+      "email": "andrew@voitanos.io"
+    }
+  ]
+}
