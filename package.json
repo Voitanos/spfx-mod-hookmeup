@@ -1,7 +1,7 @@
 {
   "name": "@voitanos/spfx-mod-hookmeup",
   "description": "Convert the Microsoft 365 SPFx Yeoman Generator template for React components from a class component to a functional component.",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "bin": {
     "spfx-mod-hookmeup": "src/index.js"
   },
