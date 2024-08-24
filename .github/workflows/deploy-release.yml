@@ -135,14 +135,3 @@ jobs:
         run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      ######################################################################
-      # compress & upload publish output as artifact
-      ######################################################################
-      - name: Compress output
-        run: tar -cvf build.tar --exclude node_modules ./
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-${{ env.NODE_VERSION }}
-          path: build.tar
